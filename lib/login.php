@@ -1,10 +1,10 @@
 <?php
 //connection to db
-require_once('../config/db.php');
+require_once( $_SERVER['DOCUMENT_ROOT']."/socialnetwork/config/db.php");
 //creating a session
 session_start();
 //connect to database
-$connection = mysqli_connect('localhost', 'root', '','socialnetwork');
+$connection = mysqli_connect('localhost', 'root', '','SOCIALNETWORK');
 if(!$connection)
 {
     header("location:../index.php?msg=10001>>something went wrong");

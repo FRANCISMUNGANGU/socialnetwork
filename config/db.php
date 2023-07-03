@@ -1,6 +1,6 @@
 <?php
 //connect to database
-$connection = mysqli_connect('localhost', 'root', '','socialnetwork');
+$connection = mysqli_connect('localhost', 'root', '','SOCIALNETWORK');
 //$c = "SELECT * FROM `users` WHERE `email` = 'francismungangu@gmail.com'";//' AND `password` = 'zzzzzz'";
 if(!$connection)
 {

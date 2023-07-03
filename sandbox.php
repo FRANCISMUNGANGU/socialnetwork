@@ -57,13 +57,13 @@
 // echo "<hr>";
 
 // Arrays
-$cars = [
-    "volvo",
-    "tesla",
-    "mitsubishi",
-    "mercedes",
-    "audi"
-    ];
+// $cars = [
+//     "volvo",
+//     "tesla",
+//     "mitsubishi",
+//     "mercedes",
+//     "audi"
+//     ];
 // another way of declaring arrays
 // $cars1 = array(
 // "volvo",
@@ -72,30 +72,31 @@ $cars = [
 // "mercedes",
 // "audi"
 // );
-print_r ($cars);
-echo "<br>";
-echo $cars[1];
-echo "<br>";
-$fetch = 4;
-if($fetch > count($cars))
-{
-    echo "No such value";
-}
-else
-{
-    echo $cars[$fetch];
-}
-echo "<hr>";
+// print_r ($cars);
+// echo "<br>";
+// echo $cars[1];
+// echo "<br>";
+// $fetch = 4;
+// if($fetch > count($cars))
+// {
+//     echo "No such value";
+// }
+// else
+// {
+//     echo $cars[$fetch];
+// }
+// echo "<hr>";
 
-// conditioanals
-$num = 9;
-if($num == 10)
-{
-    echo "Number is equal to ten";
-}
-else 
-{
-    echo "Wacha uongo";
-}
-echo "<hr>";
+// // conditioanals
+// $num = 9;
+// if($num == 10)
+// {
+//     echo "Number is equal to ten";
+// }
+// else 
+// {
+//     echo "Wacha uongo";
+// }
+// echo "<hr>";
+echo "<font color='green'>Roses are red</font>";
 ?>

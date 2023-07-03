@@ -1,8 +1,8 @@
 <?php
 
 //connect to database
-require_once('../config/db.php');
-require_once('../config/functions.php');
+require_once( $_SERVER['DOCUMENT_ROOT']."/socialnetwork/config/db.php");
+require_once( $_SERVER['DOCUMENT_ROOT']."/socialnetwork/config/functions.php");
 
 // read form data
 $name = mysqli_real_escape_string($connection, $_POST['name']);
