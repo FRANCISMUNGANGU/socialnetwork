@@ -301,7 +301,7 @@ require_once( $_SERVER['DOCUMENT_ROOT']."/socialnetwork/config/core.php");
         </div>
         <footer class="py-3 my-4">
             <img src="Communicate.net.png" style="width:90px;" class="rounded-circle mx-auto d-block"/>
-            <p class="text-center text-muted">© 2023 Company, Inc</p>
+            <p class="text-center text-muted">© 2023 F tech, Inc</p>
         </footer>
     </body>  
 </html>
